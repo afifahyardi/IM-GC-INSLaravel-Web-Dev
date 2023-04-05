@@ -1,69 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Looping</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Looping</title>
 </head>
 <body>
-	<h1>Berlatih Looping</h1>
-	<h3>Contoh Hasil Looping</h3>
-	<div id="example">
+    <h1>Berlatih Looping</h1>
+<?php
+    echo "<h3>Soal No 1 Looping I Love PHP</h3>"; 
+    /*
+    Soal No 1
+    Looping I Love PHP
+    Lakukan Perulangan (boleh for/while/do while) sebanyak 20 iterasi. Looping terbagi menjadi dua: Looping yang pertama Ascending (meningkat) dan Looping yang ke dua menurun (Descending). 
 
-</div>
-	<h3>Soal No. 1</h3>
-	<div id="jawaban1">
-
-</div>
-
-<script>
-	// Contoh untuk melakukan looping dengan for var jawabanContoh = ""
-	for (var i = 0; i < 5; i++) {
-		jawabanContoh += "ini adalah angka ke: " + [i] + "<br>" 
-	}
-
-	// Driver Code
-	document.getElementById("example").innerHTML = jawabanContoh
-
-// Soal No. 1 Looping menggunakan While
-/*
-
-	Pada tugas ini kamu diminta untuk melakukan looping dalam JavaScript dengan menggunakan syntax while. 
-
-Untuk membuat tantangan ini l
-ebih menarik,kamu juga diminta untuk membuat suatu looping yang menghitung maju dan menghitung mundur. 
-
-OUTPUT : 
-
+Output: 
 LOOPING PERTAMA
-2 - I love coding
-4 - I love coding
-6 - I love coding
-8 - I love coding
-10 - I love coding
-12 - I love coding
-14 - I love coding
-16 - I love coding
-18 - I love coding
-20 - I love coding
+2 - I Love PHP
+4 - I Love PHP
+6 - I Love PHP
+8 - I Love PHP
+10 - I Love PHP
+12 - I Love PHP
+14 - I Love PHP
+16 - I Love PHP
+18 - I Love PHP
+20- I Love PHP
 LOOPING KEDUA
-20 - I will become web developer
-18 - I will become web developer
-16 - I will become web developer
-14 - I will become web developer
-12 - I will become web developer
-10 - I will become web developer 8 - I will become web developer 6 - I will become web developer 4 - I will become web developer 2 - I will become web developer 
+20 - I Love PHP
+18 - I Love PHP
+16 - I Love PHP
+14 - I Love PHP
+12 - I Love PHP
+10 - I Love PHP
+8 - I Love PHP
+6 - I Love PHP
+4 - I Love PHP
+2 - I Love PHP
 */
-	var jawaban1 = ""
-// Code kamu di sini, lakukan looping dengan while
+// Lakukan Looping Di Sini 
 
-// Driver Code, Jangan diganggu !
-document.getElementById("jawaban1").innerHTML = jawaban1 
+echo "<h3>Soal No 2 Looping Array Modulo </h3>"; 
+/*
+    Soal No 2
+    Looping Array Module 
+    Carilah sisa bagi dengan angka 5 dari setiap angka pada array berikut. 
+    Tampung ke dalam array baru bernama $rest 
+    */
 
-	</script>
-</body>
+$numbers = [18, 45, 29, 61, 47, 34]; 
+echo "array numbers: "; 
+print_r($numbers); 
+// Lakukan Looping di sini 
 
+echo "<br>"; 
+echo "Array sisa baginya adalah: "; 
+echo "<br>"; 
+echo "<h3> Soal No 3 Looping Asociative Array </h3>";
 
-</html>
+/*
+Soal No 3
+Loop Associative Array
+Terdapat data items dalam bentuk array dimensi. Buatlah data tersebut ke dalam bentuk Array Asosiatif. 
+Setiap item memiliki key yaitu : id, name, price, description, source. 
+
+Output: Array ( [id] => 001 [name] => Keyboard Logitek [price] => 60000 [description] => Keyboard yang mantap untuk kantoran [source] => logitek.jpeg )
+Array ( [id] => 002 [name] => Keyboard MSI [price] => 300000 [description] => Keyboard gaming MSI mekanik [source] => msi.jpeg )
+Array ( [id] => 003 [name] => Mouse Genius [price] => 50000 [description] => Mouse Genius biar lebih pinter [source] => genius.jpeg )
+Array ( [id] => 004 [name] => Mouse Jerry [price] => 30000 [description] => Mouse yang disukai kucing [source] => jerry.jpeg )
+
+    Jangan ubah variabel $items 
+
+    */
+$items = [
+    ['001', 'Keyboard Logitek', 60000, 'Keyboard yang mantap untuk kantoran', 'logitek.jpeg'], 
+    ['002', 'Keyboard MSI', 300000, 'Keyboard gaming MSI mekanik', 'msi.jpeg'], 
+    ['003', 'Mouse Genius', 50000, 'Mouse Genius biar lebih pinter', 'genius.jpeg'], 
+    ['004', 'Mouse Jerry', 30000, 'Mouse yang disukai kucing', 'jerry.jpeg']
+    ]; 
+    
+    // Output: 
+    
+    echo "<h3>Soal No 4 Asterix </h3>"; 
+    /*
+    
+    Soal No 4
+    Asterix 5x5
+    Tampilkan dengan looping dan echo agar menghasilkan kumpulan bintang dengan pola seperti berikut: Output: *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    */
+    echo "Asterix: "; echo "<br>"; 
+    ?>
+
+    </body>
+    </html>
