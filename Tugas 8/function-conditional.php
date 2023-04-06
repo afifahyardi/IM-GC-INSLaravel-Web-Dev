@@ -19,19 +19,19 @@ Greetings
 Buatlah sebuah function greetings() yang menerima satu parameter berupa string. 
 
 contoh: greetings("abduh");
-Output: "Halo Abduh, Selamat Datang di Sanbercode!"
+Output: "Halo Abduh, Selamat Datang di Garudacyber!"
 */
 
 // Code function di sini
 function greetings($nama){
-    echo " Halo " . $nama . ", Selamat Datang di Sanbercode!";
+    echo " Halo " . $nama . ", Selamat Datang di Garudacyber!";
     echo "<br>";
 }
 
 // Hapus komentar untuk menjalankan code!
-greetings("Bagas");
- greetings("Wahyu");
- greetings("Abdul");
+greetings("Nurul");
+ greetings("Ibal");
+ greetings("abil");
 
 echo "<br>";
 
@@ -43,8 +43,8 @@ Buatlah sebuah function reverseString() untuk mengubah string berikut menjadi ke
 Function reverseString menerima satu parameter berupa string.
 NB: DILARANG menggunakan built-in function PHP sepert strrev(), HANYA gunakan LOOPING!
 
-reverseString("abdul");
-Output: ludba
+reverseString("nurul");
+Output: cilukba
 
 */
 
@@ -64,9 +64,9 @@ function reverseString($kata2){
 }
 
 // Hapus komentar di bawah ini untuk jalankan Code
-       reverseString("abduh");
-        reverseString("Sanbercode");
-      reverseString("We Are Sanbers Developers");
+       reverseString("nurul");
+        reverseString("garudacyber");
+      reverseString("welcome to garuda cyber");
         echo "<br>";
 
 echo "<h3>Soal No 3 Palindrome </h3>";
@@ -96,10 +96,10 @@ function palindrome($kata3){
 }
 
 // Hapus komentar di bawah ini untuk jalankan code
- palindrome("civic"); // true
-palindrome("nababan"); // true
- palindrome("jambaban"); // false
- palindrome("racecar"); // true
+ palindrome("minicooper"); // true
+palindrome("pisang"); // true
+ palindrome("mobil"); // false
+ palindrome("biru"); // true
 
 
 echo "<h3>Soal No 4 Tentukan Nilai </h3>";
@@ -126,9 +126,9 @@ function tentukan_nilai($angka){
 }
 // Hapus komentar di bawah ini untuk jalankan code
  echo tentukan_nilai(98); //Sangat Baik
-echo tentukan_nilai(76); //Baik
- echo tentukan_nilai(67); //Cukup
- echo tentukan_nilai(43); //Kurang
+echo tentukan_nilai(82); //Baik
+ echo tentukan_nilai(75); //Cukup
+ echo tentukan_nilai(60); //Kurang
 
 
 ?>
