@@ -1,8 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
+
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,10 +16,6 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/home', [HomeController::class, 'home']);
-Route::get('/register', [AuthController::class, 'register']);
-Route::post('/welcome', [AuthController::class, 'welcome']);
-
+Route::get('/', [HomeController::class, 'index']);
+Route::get('register', [AuthController::class, 'register']);
+Route::post('welkom', [AuthController::class, 'welkom']);

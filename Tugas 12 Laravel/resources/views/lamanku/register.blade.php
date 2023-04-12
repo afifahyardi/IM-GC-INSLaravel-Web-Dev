@@ -11,11 +11,11 @@
  
 		<h2>Tugas Blade 1 by Garuda Cyber Institute</h2>
 		<nav>
-			<a href="welcome.blade.php">HOME</a>
+			<a href="/welcome">HOME</a>
 			|
-			<a href="Tentang.blade.php">TENTANG</a>
+			<a href="/Tentang">TENTANG</a>
 			|
-			<a href="Kontak.blade.php">KONTAK</a>
+			<a href="/Kontak">KONTAK</a>
 		</nav>
 	</header>
 	<hr/>
