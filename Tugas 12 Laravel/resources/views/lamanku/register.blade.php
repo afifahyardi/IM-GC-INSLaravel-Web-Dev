@@ -49,7 +49,8 @@
 		<option> Indonesia </option>  
  		<option> English </option>  
   		<option> Rusia </option>  
-  		<option> Turki </option>  
+  		<option> Turki </option>
+		<option> Turki </option>  
 	</select> <br><br>
 
 	<label>Date</label><br>
@@ -69,7 +70,6 @@
 </form>
 </body>
 </html>
-
 	<br/>
 	<br/>
 	<hr/>
