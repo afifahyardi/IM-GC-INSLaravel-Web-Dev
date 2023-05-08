@@ -7,7 +7,7 @@ URL GIT HUB HANIF	: https://github.com/ilim4546/IM-GC-INSLaravel-Web-Dev/tree/ma
 URL GITHUB AKMAL	: https://github.com/AkmalFUADHASAN/IM-GC-INSLaravel-Web-Dev/tree/main/Tugas%20Akhir%20Projek 
 
 judul: 
-PERANCANGAN SISTEM INFORMASI SEKOLAH BERBASIS WEB MENGGUNAKAN FRAMEWORK LARAVEL
+School information system application using laravel framework
 
 Fitur:
 CRUD Jurusan
